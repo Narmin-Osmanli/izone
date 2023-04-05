@@ -1,0 +1,286 @@
+#izone {
+  background-color: #FFFFFF;
+  margin: auto;
+  height: 80px;
+}
+#izone .logo {
+  width: 97.65px;
+  height: 24.03px;
+  top: 28.03px;
+  margin: auto;
+  border: 1px solid red;
+}
+#izone .menu {
+  width: 651px;
+  height: 20.06px;
+  border: 1px solid red;
+}
+#izone .menu li {
+  list-style: none;
+  font-size: 15px;
+  font-family: Mulish;
+}
+#izone .menu li a {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#izone .menu li img {
+  color: #F5C74D;
+  align-items: center;
+}
+#izone .icon {
+  width: 15%;
+}
+#izone .icon .az .world {
+  width: 16px;
+}
+#izone .icon .az a {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16.32px;
+  color: #000000;
+  text-decoration: none;
+}
+#izone .icon .connect .arrow-orange {
+  width: 20px;
+}
+#izone .icon .connect a {
+  width: 44px;
+  height: 42.05px;
+  color: #000000;
+  font-style: bold;
+  font-size: 15px;
+  line-height: 24px;
+  line-height: 160%;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#join {
+  background-color: rgb(245, 245, 245);
+  height: 510px;
+}
+#join .all h1 {
+  width: 50%;
+  width: 620px;
+  height: 510px;
+  text-align: left;
+  line-height: 58px;
+  font-size: 50px;
+  font-weight: 650;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#join .all .img-box {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+#service {
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#service h1 {
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 600;
+  text-align: center;
+}
+#service .all {
+  display: flex;
+}
+#service .all .setting {
+  border-right: 1px solid #CCCCCC;
+  padding: 0 20px;
+}
+#service .all .setting:last-child {
+  border-right: none;
+}
+#service .all .setting img {
+  padding: 100px 0 25px 0;
+}
+#service .all .setting h2 {
+  padding-bottom: 10px;
+}
+#service .all .setting p {
+  color: #CCCCCC;
+}
+
+#money {
+  height: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#money .live h1 {
+  display: flex;
+  justify-content: center;
+}
+#money .live .all .tv-box {
+  justify-content: center;
+  display: flex;
+  padding: 25px 0;
+}
+#money .live .all .tv-box .grey {
+  margin: 0 15px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  background-color: #F5F5F5;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 11px 30px;
+  border-radius: 50px;
+}
+#money .live .all .tv-box .orange {
+  margin: 0 15px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  background-color: #F5C74D;
+  color: #FFFFFF;
+  padding: 11px 30px;
+  border-radius: 50px;
+}
+#money .live .all .size-box .medium,
+#money .live .all .size-box .large,
+#money .live .all .size-box .xlarge {
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+  text-align: center;
+  padding: 23px 55px;
+}
+#money .live .all .size-box .medium p,
+#money .live .all .size-box .large p,
+#money .live .all .size-box .xlarge p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  padding: 10px;
+}
+#money .live .all .size-box .medium .number,
+#money .live .all .size-box .large .number,
+#money .live .all .size-box .xlarge .number {
+  display: block;
+  align-items: center;
+  padding-bottom: 27px;
+}
+#money .live .all .size-box .medium .button-box,
+#money .live .all .size-box .large .button-box,
+#money .live .all .size-box .xlarge .button-box {
+  margin-top: 25px;
+  border: 1px solid #F5C74D;
+  border-radius: 39px;
+  width: 106px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#money .live .all .size-box .medium .button-box img,
+#money .live .all .size-box .large .button-box img,
+#money .live .all .size-box .xlarge .button-box img {
+  margin-right: 8px;
+}
+#money .live .all .size-box .medium .button-box a,
+#money .live .all .size-box .large .button-box a,
+#money .live .all .size-box .xlarge .button-box a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 160%;
+  font-style: bold;
+}
+#money .live .all .size-box .large {
+  margin: 0 50px;
+}
+
+#entrepreneur {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#entrepreneur .grey, #entrepreneur .white {
+  width: 47%;
+  padding: 43px 0 43px 125px;
+}
+#entrepreneur .grey h1, #entrepreneur .white h1 {
+  width: 60%;
+  font-size: 36px;
+  line-height: 45px;
+  line-height: 100%;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+#entrepreneur .grey p, #entrepreneur .white p {
+  width: 79%;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 120%;
+  font-weight: 400;
+}
+#entrepreneur .grey .box a, #entrepreneur .white .box a {
+  padding-left: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #000000;
+}
+#entrepreneur .grey {
+  border: 1px solid transparent;
+  background-color: #F5F5F5;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#entrepreneur .grey p {
+  padding-bottom: 30px;
+}
+#entrepreneur .white {
+  border: 2px solid #F5C74D;
+  border-right: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#rating {
+  height: 650px;
+  display: flex;
+}
+#rating h1 {
+  text-align: center;
+}
+#rating .box-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#rating .box-item .box {
+  text-align: center;
+  padding-top: 70px;
+}
+#rating .box-item .box .icon {
+  width: 36px;
+  height: 33px;
+  margin-bottom: 25px;
+}
+#rating .box-item .box h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  width: 277px;
+  margin-bottom: 20px;
+}
+
+#end {
+  height: 150px;
+}/*# sourceMappingURL=izone.css.map */
