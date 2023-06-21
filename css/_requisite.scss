@@ -1,0 +1,133 @@
+@import '_header';
+
+// ===============================================
+
+#watch{
+    background: #F5F5F5;
+
+    .text{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 90px;
+
+        .class1 {
+            width: 75px;
+            height: 24px;
+            top: 130px;
+            left: 596px;
+            font-family: Mulish;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+            color: #000000;
+            line-height: 137%;
+            font-style: bold;
+        }
+
+        .img1 {
+            width: 3px;
+            height: 3px;
+            top: 140px;
+            left: 677px;
+            color: #F5C74D;
+            margin: 0 10px 10px 10px;
+        }
+
+        .class2 {
+            width: 57px;
+            height: 24px;
+            top: 130px;
+            left: 690px;
+            font-family: Mulish;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #000000;
+            line-height: 137%;
+        }
+
+        .img2 {
+            width: 3px;
+            height: 3px;
+            top: 140px;
+            left: 757px;
+            color: #F5C74D;
+            margin: 0 10px 10px 10px;
+        }
+
+        .class3 {
+            width: 75px;
+            height: 24px;
+            top: 130px;
+            left: 770px;
+            font-family: Mulish;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #000000;
+            line-height: 137%;
+        }
+    }
+
+    h1{
+        width: 268px;
+        height: 65px;
+        top: 170px;
+        margin-left: 545px;
+        font-family: Mulish;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 65px;
+        text-align: center;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .line {
+        width: 42px;
+        top: 309px;
+        margin-left: 660px;
+        border: 2px solid #F5C74D;
+        height: 0;
+    }
+
+    h6{
+        width: 530px;
+        height: 24px;
+        top: 253px;
+        margin-left: 415px;
+        font-family: Mulish;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        font-style: normal;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    h3{
+        width: 757px;
+        height: 168px;
+        top: 376px;
+        margin: 99px 342px 0px 310px;
+        padding-bottom: 114px;
+        font-family: Mulish;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        font-style: normal;
+    }
+    
+    .box{
+        height: 114px;
+    }
+}
+
+
+// ===============================================
+
+@import '_footer'

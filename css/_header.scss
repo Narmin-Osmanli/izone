@@ -1,0 +1,184 @@
+#izone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo {
+        width: 97.65px;
+        height: 24.03px;
+    }
+
+    .menu {
+        width: 651px;
+        height: 20.06px;
+        margin: 30px 0 29.94px 0;
+        z-index: 1000;
+
+        li {
+            list-style: none;
+            font-size: 15px;
+            font-family: Mulish;
+
+            a {
+                color: #000000;
+                font-size: 15px;
+                width: 68px;
+                height: 20.02px;
+                font-weight: 600;
+                text-decoration: none;
+                font-family: Mulish;
+            }
+
+            img {
+                color: #F5C74D;
+                align-items: center;
+            }
+        }
+
+        .service {
+            position: relative;
+
+            &:hover {
+                .dropped {
+                    transform: translateY(0px);
+                    opacity: 1;
+                    visibility: visible;
+                }
+
+            }
+
+            .dropped {
+                background-color: white;
+                position: absolute;
+                transform: translateY(-10px);
+                opacity: 0;
+                visibility: hidden;
+                transition: 0.5s ease-in-out;
+                width: 165px;
+                height: 129px;
+                top: 100%;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    margin: 15px;
+                }
+            }
+        }
+
+        .three {
+            .dropped {
+                background-color: white;
+                position: absolute;
+                transform: translateY(-10px);
+                opacity: 0;
+                visibility: hidden;
+                transition: 0.5s ease-in-out;
+                top: 100%;
+                margin: 0;
+                padding: 0;
+                width: 164px;
+                height: 160px;
+
+            }
+        }
+
+        .four {
+            .dropped {
+                background-color: white;
+                position: absolute;
+                transform: translateY(-10px);
+                opacity: 0;
+                visibility: hidden;
+                transition: 0.5s ease-in-out;
+                top: 100%;
+                margin: 0;
+                padding: 0;
+                width: 164px;
+                height: 97px;
+            }
+        }
+    }
+
+    .icon {
+        display: flex;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        .az {
+            color: #000000;
+            width: 70px;
+            height: 24.06px;
+            left: 1120px;
+            top: 28px;
+            bottom: 27.94px;
+
+            .world {
+                width: 15.89px;
+                height: 15.91px;
+                top: 33.04px;
+                left: 1122px;
+            }
+
+            a {
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 16.32px;
+                text-decoration: none;
+                font-family: Mulish;
+                width: 19px;
+                height: 24.03px;
+                top: 28.03px;
+                left: 1145px;
+                color: #000000;
+            }
+
+            .arrow-black {
+                width: 8.5px;
+                height: 7px;
+                top: 39px;
+                left: 1175px;
+            }
+        }
+
+        .connect {
+            width: 74px;
+            height: 42.05px;
+            top: 19.02px;
+            left: 1206px;
+            color: #F5C74D;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .arrow-orange {
+                width: 20px;
+                height: 20px;
+                top: 30px;
+                left: 1206px;
+            }
+
+            a {
+                font-family: Mulish;
+                color: #000000;
+                font-style: bold;
+                font-size: 15px;
+                line-height: 24px;
+                line-height: 160%;
+                text-decoration: none;
+                font-weight: 700;
+                margin-left: 4px;
+            }
+        }
+
+    }
+}
